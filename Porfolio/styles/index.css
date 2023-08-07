@@ -1,0 +1,154 @@
+h1 {
+  text-align: center;
+}
+
+.contacts {
+  padding-left: 200px;
+}
+
+.pages {
+  text-align: center;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/564x/58/69/d6/5869d65fce581f894d44dcf2807332ef.jpg");
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+
+.weather-wrapper {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid darkslategrey;
+  border-radius: 10px;
+  max-width: 1100px;
+  background-image: url("https://i.pinimg.com/564x/58/69/d6/5869d65fce581f894d44dcf2807332ef.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-control {
+  margin-left: 70px;
+}
+
+.top {
+  color: #616667;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: -15px;
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+}
+
+.between {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  line-height: 1;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.units {
+  position: relative;
+  font-size: 16px;
+}
+
+small a {
+  text-decoration: none;
+}
+
+span a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: light;
+}
+
+#search-area {
+  margin-top: -40px;
+}
+
+#description:first-letter {
+  text-transform: capitalize;
+}
+
+#description {
+  font-style: italic;
+  font-weight: 500;
+}
+
+#curr-time {
+  margin-top: 25px;
+}
+
+#icon {
+  margin-right: 80px;
+}
+
+#btn-srch {
+  margin-left: 80px;
+  background-color: #adc9e1;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px 5px;
+  margin-top: 2px;
+}
+
+#temperature {
+  font-weight: normal;
+  font-size: 60px;
+}
+
+#highlight {
+  border: 1px solid darkslategrey;
+  border-radius: 7px;
+  padding: 40px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#symbol {
+  font-size: 34px;
+  margin-right: 70px;
+  margin-top: 10px;
+}
+
+#day {
+  border: 1px solid darkslategrey;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+
+#cel,
+#fah {
+  color: blueviolet;
+  font-weight: 600;
+}
+
+#cel:hover,
+#fah:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: indianred;
+}
