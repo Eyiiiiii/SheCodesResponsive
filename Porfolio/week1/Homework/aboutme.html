@@ -2,46 +2,64 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Preahvihear&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
   </head>
-  <style>
-    .top {
-      border: 1px solid yellow;
-    }
-
-    .cont-par {
-      border: 1px solid green;
-      display: flex;
-    }
-
-    .one {
-      border: 1px solid blue;
-      background-color: lightgray;
-    }
-
-    .two {
-      border: 1px solid black;
-      background-color: lightgray;
-    }
-  </style>
   <body>
-    <div class="container top">
-      <a href="index.html">Go Back to Homepage</a>
-      <div class="row"><h1>This is ME</h1></div>
+    <div class="container">
+      <a href="index.html" class="top">Go Back to Homepage</a>
+      <h1 class="top-bar">This is ME</h1>
     </div>
     <div class="container cont-par">
       <div class="row">
-        <p class="one">
-          Hi! My name is Ma. Cristina Agatha Deladia I am currently living with
-          my grandpop. Unfortunately I am not one of those people who are born
-          with a silver spoon on their mouth. My family strive for almost
-          everyday without any rest, just to give us what we need. and I love
-          them for that, so lucky to have them. And a reminder, love yours while
-          they are there for you ^__^v.
-        </p>
-        <p class="two">lorem ipsum</p>
+        <div class="col one">
+          <h3>
+            Hi! My name is Ma. Cristina Agatha Deladia I am currently living
+            with my grandpop. Unfortunately I am not one of those people who are
+            born with a silver spoon on their mouth. My family strive for almost
+            everyday without any rest, just to give us what we need. From this
+            I've grown up appreciating the value of hard work, thanks to my
+            family's relentless efforts. and I love them for that, so lucky to
+            have them. And a reminder, love yours while they are there for you
+            ^__^v.
+          </h3>
+        </div>
+        <div class="col two">
+          <h3>
+            My hobbies are, Playing guitar, drums, singing, and dancing aside
+            from playing games and watching TV
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container contact-bar">
+      <h1>Contact Me Here!!</h1>
+    </div>
+    <div class="row">
+      <div class="container">
+        <div class="row">
+          <ul id="contact">
+            <li><strong>Email: </strong>agathadeladia@gmail.com</li>
+            <li><strong>Instagram: </strong>inarasinensis</li>
+            <li><strong>Contact Number: </strong>09278704889</li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
