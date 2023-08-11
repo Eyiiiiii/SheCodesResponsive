@@ -1,0 +1,26 @@
+:root {
+  --color-one: red;
+  --color-two: blue;
+  --color-three: green;
+  --text-style: italic;
+  --text-decor: underline;
+  --border: 1px solid gray;
+  --bg: beige;
+  --align: center;
+}
+
+h3 {
+  color: var(--color-one);
+}
+
+p {
+  font-style: var(--text-style);
+  border: var(--border);
+  background-color: var(--bg);
+}
+
+h1 {
+  text-decoration: var(--text-decor);
+  color: var(--color-three);
+  text-align: var(--align);
+}
